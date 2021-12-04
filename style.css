@@ -42,8 +42,71 @@ body {
     
 }
 
+.col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+#o_nama{
+  text-align: center;
+}
+
   
+.responsive {
+  max-width: 50%;
+  height: auto;
+}
+
+.auspuh {
+  max-width: 50%;
+  height: auto;
+  margin-left: 9cm;
+  margin-top: 3cm;
+}
+
+.felga {
+  max-width: 50%;
+  height: auto;
+  margin-top: 3cm;
+  margin-left: 2cm;
+}
+
+.BMW {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin-left: 5.8cm;
+  margin-right: auto;
+}
+
+.AUDI {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin-left: 5.2cm;
+  margin-right: auto;
+  align-content: center;
+}
+
+.MERCEDES {
+  max-width: 50%;
+  height: auto;
+  margin-left: 5.2cm;
+}
+
+.col-md-4 :hover {
+  transform: scale(1.2);
+  transition: transform 0.4s ease;
+}
+
 
   
 
-  
+#tuning :hover{
+  transform: scale(1.2);
+  transition: transform 0.4s ease;
+
+}
