@@ -3,6 +3,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 0rem;
   color: #5a5a5a;
+  
  }
 
 .carousel {
@@ -110,3 +111,4 @@ body {
   transition: transform 0.4s ease;
 
 }
+
