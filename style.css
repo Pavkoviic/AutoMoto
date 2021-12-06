@@ -1,20 +1,15 @@
 body {
   margin: 2;
   padding-top: 3rem;
-  padding-bottom: 0rem;
+  padding-bottom: 0;
   color: #5a5a5a;
+  background-color: rgb(219, 219, 219);
   
  }
 
 .carousel {
   margin-bottom: 3rem;
   }
-
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
-  }
-  
   
 .carousel-item {
   height: 55rem;
@@ -55,47 +50,10 @@ body {
   text-align: center;
 }
 
-  
+
 .responsive {
   max-width: 50%;
   height: auto;
-}
-
-.auspuh {
-  max-width: 50%;
-  height: auto;
-  margin-left: 9cm;
-  margin-top: 3cm;
-}
-
-.felga {
-  max-width: 50%;
-  height: auto;
-  margin-top: 3cm;
-  margin-left: 2cm;
-}
-
-.BMW {
-  max-width: 50%;
-  height: auto;
-  display: block;
-  margin-left: 5.8cm;
-  margin-right: auto;
-}
-
-.AUDI {
-  max-width: 50%;
-  height: auto;
-  display: block;
-  margin-left: 5.2cm;
-  margin-right: auto;
-  align-content: center;
-}
-
-.MERCEDES {
-  max-width: 50%;
-  height: auto;
-  margin-left: 5.2cm;
 }
 
 .col-md-4 :hover {
@@ -103,12 +61,13 @@ body {
   transition: transform 0.4s ease;
 }
 
-
-  
-
 #tuning :hover{
   transform: scale(1.2);
   transition: transform 0.4s ease;
+}
 
+#tehnologije:hover{
+  transform: scale(1.2);
+  transition: transform 0.4s ease;
 }
 
