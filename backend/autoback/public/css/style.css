@@ -71,15 +71,6 @@ body {
   transition: transform 0.4s ease;
 }
 
-@media all and (max-width : 955px){
-  .carousel-inner{
-    height: 400px;
-  }
-  #carouselimages{
-    height: 400px;
-  }
-}
-
 .login-form {
   width: 440px;
   margin: 50px auto;
@@ -115,7 +106,7 @@ body {
   
 }
 
-@media all and (max-width : 955px){
+@media all and (max-width : 1000px){
   .carousel-inner{
     height: 400px;
   }
@@ -123,3 +114,5 @@ body {
     height: 400px;
   }
 }
+
+
