@@ -115,11 +115,3 @@ body {
   
 }
 
-@media all and (max-width : 955px){
-  .carousel-inner{
-    height: 400px;
-  }
-  #carouselimages{
-    height: 400px;
-  }
-}
