@@ -25,6 +25,8 @@ Route::get('/', function () {
     return view('FrontEnd/master');
 });*/
 
+URL::forceRootUrl('http://studenti.sum.ba/projekti/rwa/2022/g13');
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
